@@ -1,0 +1,220 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  flex-direction: column;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  background: white;
+}
+form input {
+  border-radius: 58px;
+  background: #e0e0e0;
+  box-shadow: inset 12px 12px 24px #c5c5c5, inset -12px -12px 24px #fbfbfb;
+  border: none !important;
+}
+form button {
+  color: rgba(0, 0, 0, 0.514);
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  border-radius: 40%;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 22px 22px 45px #a8a8a8, -22px -22px 45px #ffffff;
+}
+form button:hover {
+  background: #ff6f47;
+  color: rgba(34, 32, 32, 0.472);
+}
+/* @media (max-width: 320px) {
+  .todo-input {
+    width: 10px !important;
+    height: 3rem;
+  }
+  .filter-todo {
+    width: 8rem;
+    height: 3rem;
+  }
+  .todo-list {
+    margin-top: 19px;
+    width: 8rem;
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+} */
+
+@media (max-width: 360px) {
+  .todo-input {
+    width: 18rem !important;
+  }
+  .filter-todo {
+    width: 8rem;
+    height: 3rem;
+  }
+  .todo-list {
+    margin-top: 20px;
+    width: 19rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+@media (max-width: 411px) {
+  .todo-input {
+    width: 22rem !important;
+  }
+  .filter-todo {
+    width: 8rem;
+    height: 3rem;
+  }
+  .todo-list {
+    margin-top: 20px;
+    width: 21rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+@media (max-width: 414px) {
+  .todo-input {
+    width: 20rem !important;
+    height: 3rem;
+  }
+  .filter-todo {
+    width: 8rem;
+    height: 3rem;
+  }
+  .todo-list {
+    margin-top: 19px;
+    width: 20rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+@media (max-width: 768px) {
+  .todo-input {
+    width: 35rem !important;
+  }
+  .filter-todo {
+    width: 9rem;
+    height: 3.5rem;
+  }
+  .todo-list {
+    margin-top: 20px;
+    width: 34rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+@media (max-width: 1024px) {
+  .todo-input {
+    width: 47rem !important;
+    height: 5rem;
+  }
+  .filter-todo {
+    width: 9rem;
+    height: 3.5rem;
+  }
+  .todo-list {
+    margin-top: 20px;
+    width: 44rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+
+@media (max-width: 540px) {
+  .todo-input {
+    width: 30rem !important;
+    height: 3.5rem;
+  }
+  .filter-todo {
+    width: 9rem;
+    height: 3rem;
+  }
+  .todo-list {
+    margin-top: 20px;
+    width: 30rem;
+    /* height: 5rem; */
+    text-align: center;
+    justify-content: center;
+  }
+  .trash-btn,
+  .complete-btn {
+    padding: 2px;
+  }
+}
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+
+/* Custom Select */
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 148px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 22px 22px 45px #a8a8a8, -22px -22px 45px #ffffff;
+}
+select {
+  color: rgba(65, 61, 61, 0.883);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #ff6f47;
+  cursor: pointer;
+  pointer-events: none;
+}

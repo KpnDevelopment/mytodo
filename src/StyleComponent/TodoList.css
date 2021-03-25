@@ -1,0 +1,16 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.todo-list {
+  border: none;
+  min-width: 50%;
+  list-style: none;
+  text-align: center;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #aaaaaa, -5px -5px 10px #ffffff;
+}

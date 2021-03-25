@@ -1,0 +1,43 @@
+.todo {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.trash-btn,
+.complete-btn {
+  color: white !important;
+  border: none;
+  padding: 1rem;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: inset 21px 21px 42px #c3c3c3, inset -21px -21px 42px #fdfdfd;
+}
+.complete-btn {
+  background: rgb(11, 212, 162);
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.complete-btn {
+  color: red;
+}
